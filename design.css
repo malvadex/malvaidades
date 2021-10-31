@@ -1,0 +1,48 @@
+main{
+    display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+body{
+    background: rgb(155, 6, 255);
+    font-size: 1em;
+    font-family: sans-serif;
+    width: 600px;
+    height: 600px;
+}
+
+button{
+    width: 415px;
+	height: 40px;
+	font: bold 1.2rem serif;
+	background: #000;
+	color: rgb(255, 255, 255);
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.input{
+    display: flex;
+	width: 300px;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input input{
+    width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	border:none;
+	outline: 0;
+	font: bold 1.5rem serif;
+	text-align: center;
+}
+
+label{
+    font: bold 1rem serif;
+}
